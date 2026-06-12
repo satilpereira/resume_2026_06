@@ -1,0 +1,19 @@
+\newcommand{\tr}[2]{%
+  \ifenglish%
+    #1%
+  \else
+    #2%
+  \fi
+}
+
+\newcommand{\cvsection}[1]{
+  \vspace{0.65em}
+  \noindent
+  {\large\bfseries #1\par}
+  \vspace{-0.75em}
+  \noindent\rule{\textwidth}{0.5pt}
+  \vspace{-1.1em}
+}
+
+\newcommand{\cvitem}[4]{\noindent\textbf{#1} \hfill \textbf{#2} \\
+  \noindent#3 \hfill #4}

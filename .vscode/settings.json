@@ -1,0 +1,23 @@
+{
+  "latex-workshop.latex.tools": [
+    {
+      "name": "make",
+      "command": "make",
+      "args": []
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "Makefile",
+      "tools": ["make"]
+    }
+  ],
+  "latex-workshop.formatting.latex": "latexindent",
+  "latex-workshop.formatting.latexindent.path": "/usr/bin/latexindent",
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "editor.formatOnSave": true,
+  "makefile.configureOnOpen": true
+}
