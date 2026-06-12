@@ -1,0 +1,6 @@
+build/*.aux
+build/*.log
+build/*.out
+build/*.pdf
+build/*.fls
+build/*.fdb_latexmk
